@@ -1,0 +1,51 @@
+[libraries]
+java-client-v210 = { module = "io.appium:java-client", version.ref = "appiumJavaClient" }
+java-client-v751 = { module = "io.appium:java-client", version.ref = "javaClientVersion" }
+java-client-v923 = { module = "io.appium:java-client", version.ref = "javaClient" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+appium-client = { group = "io.appium", name = "java-client", version.ref = "appium-client" }
+selenium-java = { module = "org.seleniumhq.selenium:selenium-java", version.ref = "seleniumJava" }
+selenium-java-v400 = { module = "org.seleniumhq.selenium:selenium-java", version.ref = "seleniumJavaVersion" }
+selenium-support = { module = "org.seleniumhq.selenium:selenium-support", version.ref = "seleniumSupport" }
+testng = { group = "org.testng", name = "testng", version = "7.3.0" }
+testng-v696 = { module = "org.testng:testng", version.ref = "testngVersion" }
+testng-v730 = { module = "org.testng:testng", version.ref = "testngTestng" }
+uiautomator = { module = "androidx.test.uiautomator:uiautomator", version.ref = "uiautomator" }
+uiautomator-v18 = { group = "androidx.test.uiautomator", name = "uiautomator-v18", version.ref = "uiautomatorV18" }
+monitor = { group = "androidx.test", name = "monitor", version.ref = "monitor" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+
+[versions]
+agp = "8.4.1"
+appiumJavaClient = "2.1.0"
+javaClient = "9.2.3"
+javaClientVersion = "7.5.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+appium-client = "2.6.0"
+seleniumJava = "4.21.0"
+seleniumJavaVersion = "4.0.0"
+seleniumSupport = "4.22.0"
+testng = "7.4.0"
+testngTestng = "7.3.0"
+testngVersion = "6.9.6"
+uiautomator = "2.2.0"
+uiautomatorV18 = "2.2.0-alpha1"
+monitor = "1.6.1"
+kotlin = "2.0.0"
+coreKtx = "1.13.1"
+firebaseFirestore = "25.0.0"
+[plugins]
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
